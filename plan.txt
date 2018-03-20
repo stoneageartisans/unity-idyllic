@@ -1,1 +1,3 @@
-Set sunlight color based on position.
+- Set Sun's light color based on time of day.
+
+- 

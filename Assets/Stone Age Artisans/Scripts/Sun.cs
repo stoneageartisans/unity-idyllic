@@ -28,7 +28,11 @@ public class Sun : MonoBehaviour
 	void Start()
     {
         light = gameObject.GetComponent(typeof(Light)) as Light;
+
         sky = (Camera.main.gameObject.GetComponent(typeof(Skybox)) as Skybox).material;
+        sky.SetFloat("_SunSize", 0.075f);
+        sky.SetFloat("_SunSizeConvergence", 10.0f);
+        sky.SetFloat("_Exposure", 1.30f);
 
         float redIncrement = 0.01f;
         float blueIncrement = 0.01f;
@@ -45,8 +49,8 @@ public class Sun : MonoBehaviour
         {
             for(int minute = 0; minute < 60; minute ++)
             {
-                // From 4:45 to 5:14 OR 17:45 to 18:14
-                if(((hour == 4 || hour == 17) && minute > 44) || ((hour == 5 || hour == 18) && minute < 15))
+                // From 4:15 to 5:29 OR 17:45 to 18:59
+                if((hour == 4 && minute > 14) || (hour == 5 && minute < 30) || (hour == 17 && minute > 44) || (hour == 18))
                 {
                     if(currentRed > 0.20f)
                     {
@@ -58,8 +62,8 @@ public class Sun : MonoBehaviour
                         currentBlue -= blueIncrement;
                     }
                 }
-                // From 5:15 to 5:44 OR 18:15 to 18:44
-                else if((hour == 5 || hour == 18) && (minute > 14 && minute < 45))
+                // From 5:30 to 6:44 OR 19:00 to 20:14
+                else if((hour == 5 && minute > 29) || (hour == 6 && minute < 45) || (hour == 19) || (hour == 20 && minute < 15))
                 {
                     if(currentRed < 0.5f)
                     {

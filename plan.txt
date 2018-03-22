@@ -1,3 +1,11 @@
+- Moon
+
+- Stars
+
+- Procedural clouds
+
+- Procedural terrain (fractals?)
+
 - Set Sun's light color based on time of day.
 
 - 

@@ -52,6 +52,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Stone Age Artisans\Scripts\Clock.cs" />
+     <Compile Include="Assets\Stone Age Artisans\Scripts\Compass.cs" />
      <Compile Include="Assets\Stone Age Artisans\Scripts\GameTime.cs" />
      <Compile Include="Assets\Stone Age Artisans\Scripts\InputHandler.cs" />
      <Compile Include="Assets\Stone Age Artisans\Scripts\MouseLook.cs" />

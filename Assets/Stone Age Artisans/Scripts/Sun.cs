@@ -1,5 +1,4 @@
-﻿using System;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class Sun : MonoBehaviour
 {
@@ -32,7 +31,7 @@ public class Sun : MonoBehaviour
         sky = (Camera.main.gameObject.GetComponent(typeof(Skybox)) as Skybox).material;
         sky.SetFloat("_SunSize", 0.075f);
         sky.SetFloat("_SunSizeConvergence", 10.0f);
-        sky.SetFloat("_Exposure", 1.30f);
+        sky.SetFloat("_Exposure", 1.25f);
 
         float redIncrement = 0.01f;
         float blueIncrement = 0.01f;

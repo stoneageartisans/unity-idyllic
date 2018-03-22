@@ -8,7 +8,7 @@ public class GameTime : MonoBehaviour
     [HideInInspector]
     public DateTime dateTime;
 
-    [Tooltip("The speed multiplier for how fast time passes in-game")]
+    [Tooltip("How fast time passes in-game. 1.0 is normal, 10.0 is 10x, etc.")]
     public float speed = 10.0f;
 
     [Range(1, 9999)]

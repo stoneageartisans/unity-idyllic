@@ -51,28 +51,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\3rd Party\Standard Assets\Editor\CrossPlatformInput\CrossPlatformInputInitialize.cs" />
-     <Compile Include="Assets\3rd Party\Standard Assets\Editor\Water\Water4\GerstnerDisplaceEditor.cs" />
-     <Compile Include="Assets\3rd Party\Standard Assets\Editor\Water\Water4\PlanarReflectionEditor.cs" />
-     <Compile Include="Assets\3rd Party\Standard Assets\Editor\Water\Water4\SpecularLightingEditor.cs" />
-     <Compile Include="Assets\3rd Party\Standard Assets\Editor\Water\Water4\WaterBaseEditor.cs" />
-     <Compile Include="Assets\3rd Party\Standard Assets\Editor\Water\Water4\WaterEditorUtility.cs" />
-     <Compile Include="Assets\3rd Party\Standard Assets\Effects\ImageEffects\Editor\ImageEffects\AntialiasingAsPostEffectEditor.cs" />
-     <Compile Include="Assets\3rd Party\Standard Assets\Effects\ImageEffects\Editor\ImageEffects\BloomAndLensFlaresEditor.cs" />
-     <Compile Include="Assets\3rd Party\Standard Assets\Effects\ImageEffects\Editor\ImageEffects\BloomEditor.cs" />
-     <Compile Include="Assets\3rd Party\Standard Assets\Effects\ImageEffects\Editor\ImageEffects\CameraMotionBlurEditor.cs" />
-     <Compile Include="Assets\3rd Party\Standard Assets\Effects\ImageEffects\Editor\ImageEffects\ColorCorrectionCurvesEditor.cs" />
-     <Compile Include="Assets\3rd Party\Standard Assets\Effects\ImageEffects\Editor\ImageEffects\ColorCorrectionLutEditor.cs" />
-     <Compile Include="Assets\3rd Party\Standard Assets\Effects\ImageEffects\Editor\ImageEffects\DepthOfField34Editor.cs" />
-     <Compile Include="Assets\3rd Party\Standard Assets\Effects\ImageEffects\Editor\ImageEffects\DepthOfFieldScatterEditor.cs" />
-     <Compile Include="Assets\3rd Party\Standard Assets\Effects\ImageEffects\Editor\ImageEffects\EdgeDetectEffectNormalsEditor.cs" />
-     <Compile Include="Assets\3rd Party\Standard Assets\Effects\ImageEffects\Editor\ImageEffects\NoiseAndGrainEditor.cs" />
-     <Compile Include="Assets\3rd Party\Standard Assets\Effects\ImageEffects\Editor\ImageEffects\SunShaftsEditor.cs" />
-     <Compile Include="Assets\3rd Party\Standard Assets\Effects\ImageEffects\Editor\ImageEffects\TiltShiftEditor.cs" />
-     <Compile Include="Assets\3rd Party\Standard Assets\Effects\ImageEffects\Editor\ImageEffects\TonemappingEditor.cs" />
-     <Compile Include="Assets\3rd Party\Standard Assets\Effects\ImageEffects\Editor\ImageEffects\VignettingEditor.cs" />
-     <Compile Include="Assets\3rd Party\Standard Assets\Effects\LightShafts\Editor\LightShaftsEditor.cs" />
-     <Compile Include="Assets\3rd Party\Standard Assets\Vehicles\Car\Scripts\Editor\WheelEditor.cs" />
+     <Compile Include="Assets\com\heparo\terrain\toolkit\editor\TerrainToolkitEditor.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>

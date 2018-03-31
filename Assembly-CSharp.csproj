@@ -51,13 +51,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Stone Age Artisans\Scripts\Clock.cs" />
+     <Compile Include="Assets\com\heparo\terrain\toolkit\scripts\TerrainToolkit.cs" />
+     <Compile Include="Assets\Stone Age Artisans\Scripts\CloudLayer.cs" />
      <Compile Include="Assets\Stone Age Artisans\Scripts\Compass.cs" />
-     <Compile Include="Assets\Stone Age Artisans\Scripts\GameTime.cs" />
+     <Compile Include="Assets\Stone Age Artisans\Scripts\FPSCounter.cs" />
      <Compile Include="Assets\Stone Age Artisans\Scripts\InputHandler.cs" />
      <Compile Include="Assets\Stone Age Artisans\Scripts\MouseLook.cs" />
      <Compile Include="Assets\Stone Age Artisans\Scripts\Movement.cs" />
-     <Compile Include="Assets\Stone Age Artisans\Scripts\Sun.cs" />
+     <None Include="Assets\Stone Age Artisans\Shaders\TransparentScrolling.shader" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>

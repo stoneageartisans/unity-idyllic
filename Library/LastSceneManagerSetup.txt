@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Stone Age Artisans/Scenes/Idyllic.unity
+- path: Assets/Stone Age Artisans/Scenes/Scene.unity
   isLoaded: 1
   isActive: 1

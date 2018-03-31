@@ -1,11 +1,7 @@
-- Moon
+- FPS Controller (not from Standard Assets)
 
-- Stars
+- Water
 
-- Procedural clouds
-
-- Procedural terrain (fractals?)
-
-- Set Sun's light color based on time of day.
+- Trees
 
 - 

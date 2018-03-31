@@ -10,8 +10,8 @@ public class MouseLook : MonoBehaviour
 
 	void Start()
     {
-        rotationY = transform.localRotation.eulerAngles.y;
         rotationX = transform.localRotation.eulerAngles.x;
+        rotationY = transform.localRotation.eulerAngles.y;
 	}
 	
 	void Update()
